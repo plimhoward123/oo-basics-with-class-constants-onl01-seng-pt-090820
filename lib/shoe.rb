@@ -8,6 +8,7 @@ class Shoe
     BRANDS.each do |b|
       if (!BRANDS.include?(b))
         BRANDS << b
+      end
   end
 
   def cobble
