@@ -5,11 +5,6 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS.each do |b|
-      if (BRANDS.include?(b))
-        BRANDS << b
-      end
-    end
   end
 
   def cobble
@@ -17,8 +12,8 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
-  def brands=(brand)
-    @brands = brand
+  def brand=(brand)
+    @brand = brand
     BRANDS.each do |b|
       if (BRANDS.include?(b))
         BRANDS << b
