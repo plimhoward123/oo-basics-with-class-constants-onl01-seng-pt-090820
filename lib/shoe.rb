@@ -7,7 +7,7 @@ class Shoe
     @brand = brand
     BRANDS.each do |bb|
       puts brands
-      if (!BRANDS.in?(brand))
+      if (bb != brand)
         BRANDS << brand
       end
     end
