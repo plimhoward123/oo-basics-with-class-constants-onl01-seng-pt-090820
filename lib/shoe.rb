@@ -6,6 +6,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS.each do |bb|
+      puts brands
       if (!BRANDS.in?(brand))
         BRANDS << brand
       end
