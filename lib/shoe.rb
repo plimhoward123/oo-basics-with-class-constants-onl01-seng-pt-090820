@@ -1,6 +1,6 @@
 class Shoe
   attr_accessor :color, :size, :material, :condition
-  attr_reader :brand, :brands
+  attr_reader :brand, 
   BRANDS = []
 
   def initialize(brand)
@@ -16,7 +16,7 @@ class Shoe
   def brand=(brand)
     @brand = brand
     BRANDS.each do |b|
-      if (BRANDS.include?(b))
+      if (!BRANDS.include?(b))
         BRANDS << b
       end
     end
