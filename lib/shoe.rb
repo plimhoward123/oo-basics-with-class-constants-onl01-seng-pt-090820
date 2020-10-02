@@ -8,6 +8,8 @@ class Shoe
     BRANDS.each do |bb|
       if (BRANDS.in?(bb))
         BRANDS << brand
+      end
+    end
   end
 
   def cobble
