@@ -14,10 +14,6 @@ class Shoe
 
   def brand=(brand)
     @brand = brand
-    BRANDS.each do |b|
-      if (!BRANDS.include?(b))
-        BRANDS << b
-      end
-    end
+    BRANDS << brand
   end
 end
