@@ -18,10 +18,10 @@ class Shoe
     BRANDS.each do |b|
       if (!BRANDS.include?(b))
         BRANDS << begin
-          
+
         rescue ExceptionName
-          
+
         end
-        
+
   end
 end
