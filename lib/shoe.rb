@@ -9,6 +9,7 @@ class Shoe
       if (!BRANDS.include?(b))
         BRANDS << b
       end
+    end
   end
 
   def cobble
