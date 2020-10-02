@@ -5,6 +5,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
+    puts brand
     BRANDS << brand
   end
 
