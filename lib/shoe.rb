@@ -5,6 +5,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
+    puts brand
     BRANDS.each do |bb|
       if (bb != brand)
         BRANDS << brand
